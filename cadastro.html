@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jotha Beauty | Cadastro</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <header>
+        <div class="logo">
+            <img src="img/logo.png" alt="Logo da Jotha Beauty" class="simbolo-logo">
+            <h1>Jotha Beauty</h1>
+        </div>
+
+        <p>Sua beleza, nosso toque especial</p>
+
+        <nav>
+            <a href="index.html">Início</a>
+            <a href="index.html#sobre">Sobre</a>
+            <a href="index.html#servicos">Serviços</a>
+            <a href="pacotes.html">Pacotes</a>
+            <a href="cadastro.html">Cadastro</a>
+            <a href="login.html">Login</a>
+            <a href="admin.html">Admin</a>
+        </nav>
+
+        <div class="acessibilidade">
+            <button type="button" id="btn-tema">
+                Modo escuro
+            </button>
+
+            <button type="button" id="btn-fonte">
+               Aumentar fonte
+            </button>
+        </div>
+    </header>
+
+    <main>
+        <section class="secao-formulario">
+            <h2>Cadastre-se na Jotha Beauty</h2>
+            <p>Preencha o formulário abaixo para criar sua conta e fazer parte do nosso espaço de beleza:</p>
+
+            <form id="form-cadastro">
+                <label for="nome">Nome:</label>
+                <input type="text" id="nome" name="nome" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                
+                <label for="telefone">Telefone:</label>
+                <input type="tel" id="telefone" name="telefone" required>
+
+                <label for="nascimento">Data de nascimento:</label>
+                <input type="date" id="nascimento" name="nascimento" required>
+
+                <label for="senha">Senha:</label>
+                <input type="password" id="senha" name="senha" required>
+
+                <label for="confirmar-senha">Confirmar senha:</label>
+                <input type="password" id="confirmar-senha" name="confirmar-senha" required>
+
+                <button type="submit">Cadastrar</button>
+            </form>
+
+            <p>Já tem uma conta? 
+                <a href="login.html">Faça login aqui</a>
+            </p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Jotha Beauty. Todos os direitos reservados.</p>
+
+        <p>Desenvolvido por Júlia e Thaina</p>
+
+        <div class="links-rodape">
+            <a href="https://www.linkedin.com/in/julia-bagnara-54aa41377/" target="_blank" rel="noopener noreferrer">
+                <img src="icone/icone_j.png" alt="" class="icone-linkedin">
+                LinkedIn da Júlia
+            </a>
+
+            <a href="https://www.linkedin.com/in/thaina-tamiris-souza-dionisio-3291593a8/" target="_blank" rel="noopener noreferrer">
+                <img src="icone/icone_T.png" alt="" class="icone-linkedin">
+                LinkedIn da Thaina
+            </a>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>    
+
+</body>
+</html>
