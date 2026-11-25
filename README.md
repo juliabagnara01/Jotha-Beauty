@@ -130,9 +130,9 @@ Os códigos HTML e CSS também foram submetidos aos validadores do W3C, conforme
 
 ## Publicação
 
-O projeto será disponibilizado através do GitHub Pages.
+O projeto está disponível online através do GitHub Pages.
 
-O link de acesso ao website será acrescentado após a publicação.
+[Acesse o website Jotha Beauty](https://juliabagnara01.github.io/Jotha-Beauty/)
 
 ## Referências
 
