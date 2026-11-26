@@ -128,6 +128,12 @@ Durante o desenvolvimento, foram realizados testes das funcionalidades de cadast
 
 Os códigos HTML e CSS também foram submetidos aos validadores do W3C, conforme os requisitos da disciplina.
 
+## Documentação do projeto
+
+O roteiro apresenta o planejamento, os objetivos, os requisitos, a identidade visual e a estrutura do website Jotha Beauty.
+
+- [Acessar o roteiro do projeto em PDF](docs/Roteiro_Jotha_Beauty.pdf)
+
 ## Publicação
 
 O projeto está disponível online através do GitHub Pages.
